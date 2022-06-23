@@ -1,1 +1,31 @@
 /* your code */
+.content_table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: futura-pt, sans-serif;
+    min-width: 1000px;
+    border-radius: 7px 7px 7px 7px;
+    overflow: hidden;
+
+}
+
+.content_table thead tr{
+    background-color: #215A8E;
+    color: white;
+    text-align: left ;
+    font-weight: bold;
+}
+
+.content_table th,
+.content_table td{
+    padding: 12px 15px;
+}
+
+.content_table tbody tr{
+    border-bottom: 1px solid white;
+}
+
+.content_table tbody tr:nth-of-type(even){
+    background-color: #DDDDDD;
+}
